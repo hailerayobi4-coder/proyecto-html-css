@@ -1,18 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Proyecto Web Migrado</title>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    
-<div>
-    <p>Ejemplo de git</p>
-</div>
 
-<a href="pagina2.html" target="_blank" rel="noopener noreferrer">pagina 2</a>
-    <a href="https://www.youtube.com/watch?v=nEorFTA6OS8">pokemon</a>
+    <header>
+        <div class="container">
+            <h1>Mi Proyecto Web</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="pagina2.html">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Bienvenido a nuestro sitio</h2>
+            <p>Este proyecto integra estructura HTML y estilos CSS migrados correctamente.</p>
+            <img src="assets/img/banner.jpg" alt="Banner principal">
+        </div>
+    </section>
+
+    <section class="columnas">
+        <div class="container row">
+            <div class="col">
+                <h3>Columna 1</h3>
+                <p>Contenido informativo migrado desde el proyecto web original.</p>
+            </div>
+            <div class="col">
+                <h3>Columna 2</h3>
+                <p>Se mantiene la estructura organizada y modular.</p>
+            </div>
+            <div class="col">
+                <h3>Columna 3</h3>
+                <p>Uso correcto de clases para coherencia con CSS.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="formulario">
+        <div class="container">
+            <h2>Formulario de Contacto</h2>
+            <form>
+                <input type="text" placeholder="Nombre" required>
+                <input type="email" placeholder="Correo" required>
+                <textarea placeholder="Mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 Proyecto Integrado - Ingeniería de Sistemas</p>
+        </div>
+    </footer>
 
 </body>
 </html>
